@@ -3,8 +3,16 @@ import React from "react";
 //import your own components
 import { Navbar } from "./component/navbar";
 import { Jumbotron } from "./component/jumbotron";
-import { Card } from "./component/card";
+import { Cards } from "./component/card";
 import { Footer } from "./component/footer";
+
+const carta = {
+	image: "http://placehold.it/500x325.jpg",
+	title: "Hello Rigo",
+	description: "lorem ipsum.........",
+	url: "http://wikipedia.com",
+	button: "click here"
+};
 
 export function App() {
 	return (
@@ -16,10 +24,10 @@ export function App() {
 
 			<div className="container">
 				<div className="row">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+					<Cards card={carta} />
+					<Cards />
+					<Cards />
+					<Cards />
 				</div>
 			</div>
 			<div>
