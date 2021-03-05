@@ -4,6 +4,7 @@ import React from "react";
 import { Navbar } from "./component/navbar";
 import { Jumbotron } from "./component/jumbotron";
 import { Card } from "./component/card";
+import { Footer } from "./component/footer";
 
 export function App() {
 	return (
@@ -20,6 +21,9 @@ export function App() {
 					<Card />
 					<Card />
 				</div>
+			</div>
+			<div>
+				<Footer />
 			</div>
 		</div>
 	);

@@ -5,7 +5,7 @@ export function Card() {
 		<div className="card" style={{ width: "14rem" }}>
 			<img
 				className="card-img-top"
-				src="https://picsum.photos/70/40"
+				src="https://placekitten.com/g/90/90"
 				alt="Card image cap"
 			/>
 			<div className="card-body">
