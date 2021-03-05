@@ -7,11 +7,11 @@ import { Cards } from "./component/card";
 import { Footer } from "./component/footer";
 
 const carta = {
-	image: "http://placehold.it/500x325.jpg",
-	title: "Hello Rigo",
+	image: "https://placekitten.com/g/70/50",
+	title: "A Kitten",
 	description: "lorem ipsum.........",
 	url: "http://wikipedia.com",
-	button: "click here"
+	button: "click me"
 };
 
 export function App() {
@@ -25,9 +25,9 @@ export function App() {
 			<div className="container">
 				<div className="row">
 					<Cards card={carta} />
-					<Cards />
-					<Cards />
-					<Cards />
+					<Cards card={carta} />
+					<Cards card={carta} />
+					<Cards card={carta} />
 				</div>
 			</div>
 			<div>
