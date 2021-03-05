@@ -2,7 +2,7 @@ import React from "react";
 
 export function Jumbotron() {
 	return (
-		<div className="jumbotron" style={{ width: "56rem" }}>
+		<div className="jumbotron" style={{ width: "100%" }}>
 			<h1 className="display-4">Hello, world!</h1>
 			<p className="lead">
 				This is a simple hero unit, a simple jumbotron-style component

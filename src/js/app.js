@@ -10,7 +10,7 @@ const carta = {
 	image: "https://placekitten.com/g/70/50",
 	title: "A Kitten",
 	description: "lorem ipsum.........",
-	url: "http://wikipedia.com",
+	url: "https://en.wikipedia.org/wiki/Kitten",
 	button: "click me"
 };
 
@@ -24,10 +24,19 @@ export function App() {
 
 			<div className="container">
 				<div className="row">
-					<Cards card={carta} />
-					<Cards card={carta} />
-					<Cards card={carta} />
-					<Cards card={carta} />
+					<div className="col">
+						<Cards card={carta} />
+					</div>
+					<div className="col">
+						<Cards card={carta} />
+					</div>
+					<div className="col">
+						<Cards card={carta} />
+					</div>
+
+					<div className="col">
+						<Cards card={carta} />
+					</div>
 				</div>
 			</div>
 			<div>
