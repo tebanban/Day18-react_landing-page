@@ -9,7 +9,8 @@ import { Footer } from "./component/footer";
 const carta = {
 	image: "https://placekitten.com/g/70/50",
 	title: "A Kitten",
-	description: "lorem ipsum.........",
+	description:
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
 	url: "https://en.wikipedia.org/wiki/Kitten",
 	button: "click me"
 };
@@ -24,17 +25,17 @@ export function App() {
 
 			<div className="container">
 				<div className="row">
-					<div className="col">
+					<div className="col-md-3">
 						<Cards card={carta} />
 					</div>
-					<div className="col">
+					<div className="col-md-3">
 						<Cards card={carta} />
 					</div>
-					<div className="col">
+					<div className="col-md-3">
 						<Cards card={carta} />
 					</div>
 
-					<div className="col">
+					<div className="col-md-3">
 						<Cards card={carta} />
 					</div>
 				</div>

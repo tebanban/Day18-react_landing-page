@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export function Cards(props) {
 	return (
-		<div className="card" style={{ width: "12rem" }}>
+		<div className="card" style={{ width: "auto" }}>
 			<img
 				className="card-img-top"
 				src={props.card.image}
